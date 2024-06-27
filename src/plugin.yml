@@ -1,0 +1,18 @@
+name: HomeInviteExodus
+version: 1.1
+author: wagn
+main: me.wagn.HomeInviteExodus.HomeInviteExodus
+api-version: 1.17
+depend: [ ExodusHomes ]
+
+commands:
+  homeinvite:
+    description: Invite a player to your home
+    usage: /homeinvite <player> <home>
+    aliases:
+      - hi
+  hiaccept:
+    description: Accept a home invite
+    usage: /hiaccept
+    aliases:
+      - hia
